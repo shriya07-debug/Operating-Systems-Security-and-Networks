@@ -9,6 +9,8 @@ int main() {
 	printf("double: %zu bytes\n", sizeof(double));
 	printf("long: %zu bytes\n", sizeof(long));
  	printf("pointer: %zu bytes\n", sizeof(int*));
+        printf("long long: %zu bytes\n", sizeof(long long));
+	printf("unsigned int: %zu bytes\n", sizeof(unsigned int));
 
        return 0;
 }
